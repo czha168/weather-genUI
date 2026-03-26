@@ -17,9 +17,12 @@ This project is a chat-based web application that generates dynamic, visual weat
 1.  **Python 3.8+**
 2.  **Ollama**: You must have Ollama installed and running.
     *   [Download Ollama](https://ollama.com/)
-3.  **Model**: You need to pull the specific model used in the script.
+3.  **Model**: You need to pull the specific model used in the script. I also increase context length, since I planned to use it for coding agent.
     ```bash
-    ollama pull gpt-oss:20b-128k
+    ollama run gpt-oss:20b
+    >>> /set parameter num_ctx 128000
+    >>> /save gpt-oss:20b-120k
+    >>> /bye
     ```
     *(Note: You can edit the `model` variable in `main.py` to use any Ollama model that supports function calling, such as `llama3.1` or `mistral`).*
 
