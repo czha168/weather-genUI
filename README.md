@@ -1,5 +1,5 @@
 # weather-genUI
-This is my porting of weather demo of (Generative UI Demos with FastHTML)[https://github.com/kafkasl/genUI]. Just to prove local LLM works.
+This is my porting of weather demo of [Generative UI Demos with FastHTML](https://github.com/kafkasl/genUI). Just to prove local LLM works.
 
 # Dynamic Weather UI with FastHTML and Ollama
 
